@@ -6,9 +6,7 @@
   "main": "server.js",
   "scripts": {
     "cucumber": "./node_modules/.bin/cucumber-js ./features -r ./features/steps -r ./features/support -f ./node_modules/cucumber-pretty",
-    "start": "nodemon server.js",
-    "test": "jest --runInBand --detectOpenHandles",
-    "test-cov": "jest --runInBand --detectOpenHandles --collectCoverage"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
